@@ -1,0 +1,13 @@
+﻿<Application>
+  <Menus>
+    <action type="add">
+      <Menu Checked="0" Enabled="1" FatherUID="43520" Image="" Position="16" String="Power Consumption" Type="2" UniqueID="mnuPC">
+        <Menus>
+          <action type="add">
+            <Menu Checked="0" Enabled="1" FatherUID="mnuPC" Image="" Position="1" String="Power Consumption Reading" Type="1" UniqueID="mnuPCR" />
+          </action>
+        </Menus>
+      </Menu>
+    </action>
+  </Menus>
+</Application>

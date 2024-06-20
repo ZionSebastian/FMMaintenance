@@ -1,0 +1,8 @@
+C:\MY PC\Zion\Works\SAP B1 Projects\Git Commits Maintenance\FMMaintenance\FMMaintenance\bin\x64\Debug\FMMaintenance.exe
+C:\MY PC\Zion\Works\SAP B1 Projects\Git Commits Maintenance\FMMaintenance\FMMaintenance\bin\x64\Debug\FMMaintenance.pdb
+C:\MY PC\Zion\Works\SAP B1 Projects\Git Commits Maintenance\FMMaintenance\FMMaintenance\bin\x64\Debug\B1WizardBase.dll
+C:\MY PC\Zion\Works\SAP B1 Projects\Git Commits Maintenance\FMMaintenance\FMMaintenance\obj\x64\Debug\FMMaintenance.csprojAssemblyReference.cache
+C:\MY PC\Zion\Works\SAP B1 Projects\Git Commits Maintenance\FMMaintenance\FMMaintenance\obj\x64\Debug\FMMaintenance.csproj.CoreCompileInputs.cache
+C:\MY PC\Zion\Works\SAP B1 Projects\Git Commits Maintenance\FMMaintenance\FMMaintenance\obj\x64\Debug\FMMaintenance.csproj.CopyComplete
+C:\MY PC\Zion\Works\SAP B1 Projects\Git Commits Maintenance\FMMaintenance\FMMaintenance\obj\x64\Debug\FMMaintenance.exe
+C:\MY PC\Zion\Works\SAP B1 Projects\Git Commits Maintenance\FMMaintenance\FMMaintenance\obj\x64\Debug\FMMaintenance.pdb

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{83EC6BF1-23A4-4BE4-B131-BB7A3BDFD700}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FMMaintenance</RootNamespace>
+    <AssemblyName>FMMaintenance</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>FMMaintenance.FMMaintenance</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="B1WizardBase">
+      <HintPath>10dll\B1WizardBase.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.SAPbobsCOM, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>10dll\Interop.SAPbobsCOM.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.SAPbouiCOM, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>10dll\Interop.SAPbouiCOM.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class Files\clsFMMaintenance.cs" />
+    <Compile Include="Class Files\globalvariables.cs" />
+    <Compile Include="FMMaintenance_Cockpits.cs" />
+    <Compile Include="FMMaintenance_Db.cs" />
+    <Compile Include="Matrix__FM_PCR__0_U_G.cs" />
+    <Compile Include="Menu__1281.cs" />
+    <Compile Include="Menu__1282.cs" />
+    <Compile Include="Menu__1292.cs" />
+    <Compile Include="Menu__1293.cs" />
+    <Compile Include="Menu__mnuPCR.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="obj\x64\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\x64\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\x64\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Utils\EEnums.cs" />
+    <Compile Include="Utils\SelectFileDialog.cs" />
+    <Compile Include="Utils\TChooseFromList.cs" />
+    <Compile Include="Utils\TComboBox.cs" />
+    <Compile Include="Utils\TConditions.cs" />
+    <Compile Include="Utils\TConstants.cs" />
+    <Compile Include="Utils\TDataSorces.cs" />
+    <Compile Include="Utils\TDataTime.cs" />
+    <Compile Include="Utils\TDocument.cs" />
+    <Compile Include="Utils\TEditText.cs" />
+    <Compile Include="Utils\TForm.cs" />
+    <Compile Include="Utils\TGeneric.cs" />
+    <Compile Include="Utils\TItem.cs" />
+    <Compile Include="Utils\TLinkButton.cs" />
+    <Compile Include="Utils\TMatrix.cs" />
+    <Compile Include="Utils\TMetaDataOperations.cs" />
+    <Compile Include="Utils\TNotification.cs" />
+    <Compile Include="Utils\TProgressBar.cs" />
+    <Compile Include="Utils\TReportLayoutsService.cs" />
+    <Compile Include="Utils\TSQL.cs" />
+    <Compile Include="Utils\TStaticText.cs" />
+    <Compile Include="Utils\TTransaction.cs" />
+    <Compile Include="Utils\TUser.cs" />
+    <Compile Include="Utils\TValidate.cs" />
+    <Compile Include="Utils\TXML.cs" />
+    <Compile Include="FMMaintenance.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\FMMaintenance.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\FMMaintenance.csprojAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\x64\Debug\addMenus.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="bin\x64\Debug\FMMaintenance.exe" />
+    <Content Include="bin\x64\Debug\FMMaintenance.pdb" />
+    <Content Include="bin\x64\Debug\icon power.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
